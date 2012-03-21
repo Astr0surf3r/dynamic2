@@ -1,0 +1,11 @@
+<%= form_for @visura do |f| %>
+
+    <%= f.collection_select(:provincia, @provincia, :id, :name, {:prompt => true}) %>
+
+
+<%= f.collection_select(:comune, @comune, :id, :name, {:prompt => true}) %>
+
+
+<%= f.submit %>
+
+<% end %>

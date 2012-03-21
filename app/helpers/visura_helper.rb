@@ -1,0 +1,2 @@
+module VisuraHelper
+end

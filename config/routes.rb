@@ -1,4 +1,7 @@
 Dynamic2::Application.routes.draw do
+
+root :to => "visura#index"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
