@@ -1,4 +1,4 @@
-<%= form_for @visura do |f| %>
+<%= form_for :visura do |f| %>
 
     <%= f.collection_select(:provincia, @provincia, :id, :name, {:prompt => true}) %>
 
