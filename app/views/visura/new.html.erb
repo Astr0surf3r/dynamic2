@@ -1,5 +1,5 @@
 <%= form_for @visura do |f| %>
-   
+
     <%= f.label :provincia %>
     <%= f.collection_select(:provincia, @provincia, :id, :name, {:prompt => true}) %>
 
@@ -10,3 +10,4 @@
 <%= f.submit %>
 
 <% end %>
+

@@ -3,9 +3,11 @@ class VisuraController < ApplicationController
   def index
     @provincia  = Provincia.find(:all)
     @comune = Comune.find(:all)
-  end
+    @visura = Visura.new
+ end
 
   def new
-    @visura = Visura.new
+   @provincia  = Provincia.find(:all)
+   @visura = Visura.new
   end
 end
