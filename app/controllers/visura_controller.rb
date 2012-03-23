@@ -8,6 +8,12 @@ class VisuraController < ApplicationController
 
   def new
    @provincia  = Provincia.find(:all)
+   @comune  = Comune.find(:all)
    @visura = Visura.new
   end
+
+  def create
+
+  end
+
 end

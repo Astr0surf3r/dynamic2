@@ -2,9 +2,9 @@ Dynamic2::Application.routes.draw do
 
 resources :visuras
 
-#root :to => "visura#index"
+root :to => "visura#index"
 
-root :to => "visura#new"
+#root :to => "visura#new"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

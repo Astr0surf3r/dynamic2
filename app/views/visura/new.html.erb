@@ -2,10 +2,12 @@
 
     <%= f.label :provincia %>
     <%= f.collection_select(:provincia, @provincia, :id, :name, {:prompt => true}) %>
+</ br>
 
 <%= f.label :comune %>
 <%= f.collection_select(:comune, @comune, :id, :name, {:prompt => true}) %>
 
+</ br>
 
 <%= f.submit %>
 
